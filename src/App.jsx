@@ -1,14 +1,14 @@
 import "./App.css";
-import Title from './components/title/title'
-import Text from './components/text/text'
-import Button from './components/button/button'
+import { Title } from './components/Title'
+import { Text } from './components/StyledText'
+import { AlertButton } from './components/AlertButton'
 
 function App() {
   return (
     <>
       <Title/>
       <Text/>
-      <Button label="Baixar CV"/>
+      <AlertButton label="Baixar CV"/>
     </>
   )
 }
